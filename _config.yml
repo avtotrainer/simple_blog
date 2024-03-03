@@ -1,0 +1,50 @@
+# Site settings
+title:          Tail
+description:    "Minimal Jekyll blog theme"
+baseurl:        "/tail"
+url:
+
+# Author
+author:
+  name:         Jitin Nair
+  url:          https://jitin.xyz
+  email:        hello@jitin.xyz
+
+# https://jekyllrb.com/docs/configuration/options/
+timezone: Asia/Kolkata
+
+# Permalinks
+permalink:      /:title
+paginate:       5
+
+# Show Related Notes
+show_related_posts: false
+open_external_links_in_new_tab: false
+
+# Google Analytics
+google_analytics:
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     /assets/css/_sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
+
+# Excludes
+exclude:
+  - README.md
+  - LICENSE.md
+
+# Disqus (Set to your disqus id)
+disqus:
