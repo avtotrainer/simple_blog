@@ -1,11 +1,11 @@
 # Site settings
 title:          Tail
 description:    "Minimal Jekyll blog theme"
-baseurl:        "/tail"
+baseurl:        
 url:
 
 # https://jekyllrb.com/docs/configuration/options/
-timezone: Asia/Kolkata
+timezone: Asia/Tbilisi
 
 # Google Analytics
 google_analytics:
