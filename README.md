@@ -1,32 +1,51 @@
 # Tail
 
-Tail is a minimal Jekyll blog theme heavily based on [Tale](https://github.com/chesterhow/tale) (and hence the name). Apart from the minor fixes to Tale and significant changes under the hood, this theme is designed to make it easier to maintain a blog.
+Tail ეს არის მინიმალერი Jekyll  ბოგი, ბაზირებული [Tale](https://github.com/chesterhow/tale) რეპოზიტორზე.
 
-If you already have a bunch of files in `*.md` format, you can simply copy them to the `_posts` folder after forking this theme and making a few changes to `_config.yml`, your blog is ready to go!
+დამატება ამ ბლოგზე არის ის, რომ პოსტის ფაილებში სახელების სტანდარტიზაციის შეზღუდვა არ არის და ნებიმიერი `*.md`  ფაილების კოლექცია პირდეპირ შეიძლება გადმოიწეროს `_posts`-ში
 
-## What's new in Tail
-- Dark Mode
-- Support for posts without the `YYYY-MM-DD` in the post's filename
-- Bi-directional Wiki-style linking support compatible with Obsidian (Planned)
+დაარედაქტირეთ  `_config.yml`, თქვენი საჭიროების მიხედვით და დაიწყეთ გამოყენება!
 
-## Features
-- Easy installation
-- Compatible with GitHub Pages
-- Responsive design
-- Pagination of posts
-- Sticky posts
-- Tags
-- Excerpt management
+პოსტების უკეთესად სამართავად გამოიყენეთ Jekyll-ის სტანდარტული front matter პარამეტრები
 
-## Contributing
-Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
 
-## License
-See [LICENSE](https://github.com/jitinnair1/tail/blob/master/LICENSE)
 
-PS: If you liked the theme, do star :star: it! Thanks!
+### სტანდარტული პარამეტრები
 
-### Also, check out:
+- `layout`: განსაზღვრავს პოსტის შაბლონს.
+- `title`: პოსტის ან ფურცლის სათაური.
+- `date`: გამოქვეყნების თარიღი.
+- `categories` ან `category`: კატეგორიები, რომელსაც მიეკუთვნება პოსტი.
+- `tags`: პოსტთან დაკავშრირებული ტეგები.
+- `author`: პოსტის ავტორი.
+- `permalink`: პოსტის სამომხმარებლო URL.
+- `excerpt`: პოსტის მოკლე აღწერა.
+- `image`: პოსტის წარმოსადგენი გამოსახულება.
+- `published`: განსაზღვრავს, უნდა გამოქვეყნდეს პოსტი თუ არა.
+- `sitemap`: უთითებს ჩაერთოს თუ არა პოსტი sitemap-ში.
+- `comments`: პოსტისთვის კომენტარების ჩართვა ან გამორთვა.
+- `redirect_from`: URL-მისამერთები ამ პოსტზე რედაირექტისთვის.
+- `redirect_to`: URL-მისამართი, რომელზეც გადამისამართდება ეს პოსტი.
+- `excerpt_separator`: პოსტის ჭრა, მომკლე შინაარსი შეწყდება ამ კოდთან <!--more-->
+- `sticky`: პოსტის აპინვა.
+- `hidden` : პოსტის დამალვა გადანომრილ გვერდებზე.
+- `image_caption`: წარწერა სურათზე.
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [gradfolio](https://github.com/jitinnair1/gradfolio) - a minimal, quick-setup template for a personal website/portfolio
+
+
+### გაფართოებული სამომხმარებლო პარამეტრები
+
+- `seo`:
+  - `title`:  SEO სათაური.
+  - `description`: SEO აღწერა.
+- `featured`: პოსტს მონიშნავს როგორც ფავორიტს.
+- `layout`: შესაძლებელია განსხვავებული შაბლონების მითითება განსხვავებული გვერდებისათვის(მაგალითად, `page`, `post`, `archive`).
+- `series`: აკავშირებს პოსტს სერიებთან და თემატურ შერჩევასთან.
+- `custom_css` და `custom_js`: მომხმარებლის  CSS ან JS ფაილების სია, რომელიც საჭიროა მხოლოდ ამ პოსტში ჩასართველად.
+- `password`: დაცულ პოსტზე ან გვერდზე დასაშვები პაროლი.
+- `last_modified_at`: პოსტის ბოლო მოდიფიცირების თარიღი.
+- `pin`: პოსტის მიმაგრება მთავარ გვერდზე ან განსაზღვრულ კატეგორიაში.
+- `related`: ჩართავს ან გამორთავს შესაძლებლობას შეადგინოს დაკავშირებული პოსტების სია.
+- `share`: სოციალური გაზიარების პარამეტრების მართვა.
+- `template`: უთითებს Liquid-ის არასტანდარტულ შაბლონზე, რომელიც უნდა იქნას გამოყენებული.
+- `visibility`: მართავს პოსტის ხედვის არეალს (მაგალითად, `public`, `private`).
