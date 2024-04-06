@@ -1,7 +1,7 @@
 # Site settings
-title:          Tail
-description:    "Minimal Jekyll blog theme"
-baseurl:        
+title:          ᲑᲚᲝᲒᲘ
+description:    "მინიმალური Jekyll blog-ის თემა"
+baseurl:
 url:
 
 # https://jekyllrb.com/docs/configuration/options/
@@ -12,9 +12,9 @@ google_analytics:
 
 # Author
 author:
-  name:         Jitin Nair
-  url:          https://jitin.xyz
-  email:        hello@jitin.xyz
+  name:         ავთო ფანგანი
+  url:          https:/blog.din.ge
+  email:        blog@din.ge
 
 # Build settings
 markdown:       kramdown
