@@ -15,3 +15,6 @@ end
 gem "webrick", "~> 1.7"
 
 gem "nokogiri", "~> 1.15"
+
+gem "json", "~> 2.5.1"
+
